@@ -111,16 +111,114 @@
 }
 
 .ex-12-top-white{
-    transition: try 2s linear;
+    animation: 3s linear infinite;
+    animation-name: giro1;
 }
 
-@keyframes try {
+@keyframes giro1 {
     0% {
         top: -10px;
         left: 10%;
     }
+    50% {
+        top: -10px;
+        left: 75%;
+    }
     100% {
         top: -10px;
-        left: 50%;
+        left: 10%;
+    }
+}
+
+.ex-12-bottom-white{
+    animation: 3s linear infinite;
+    animation-name: giro2;
+}
+
+@keyframes giro2 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    50% {
+        bottom: -10px;
+        right: 75%;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+
+.ex-13-top-white{
+    animation: 5s linear infinite;
+    animation-name: giro3;
+}
+
+@keyframes giro3 {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+   20% {
+        top: -10px;
+        left: 75%;
+    }
+
+    40% {
+        top: 50px;
+        left: 75%;
+    }
+
+    60% {
+        top: 50px;
+        left: -10%;
+    }
+
+    80% {
+        top: -10px;
+        left: -10%;
+    }
+    
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-bottom-white{
+    animation: 5s linear infinite;
+    animation-name: giro4;
+}
+
+@keyframes giro4 {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+   20% {
+        bottom: -10px;
+        right: 80%;
+    }
+
+    40% {
+        bottom: 50px;
+        right: 80%;
+    }
+
+    60% {
+       bottom: 50px;
+       right: -10%;
+    }
+
+    80% {
+        bottom: -10px;
+        right: -10%;
+    }
+    
+    100% {
+        bottom: -10px;
+        right: 20%;
     }
 }
